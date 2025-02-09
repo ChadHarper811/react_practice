@@ -5,15 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const JSX = (
-<div>
-  <h1>Hello World!</h1>
-  <p>This is practice</p>
-  <ul>
-    <li>#1</li>
-    <li>#2</li>
-    <li>#3</li>
-  </ul>
-</div>
+  <div>
+    <h1>This is a block of JSX</h1>
+    <p>Here's a subtitle</p>
+    {/* Comment */}
+  </div>
 );
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
