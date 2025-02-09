@@ -4,11 +4,21 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const JSX = <h1>Hello JSX!</h1>
+const JSX = (
+<div>
+  <h1>Hello World!</h1>
+  <p>This is practice</p>
+  <ul>
+    <li>#1</li>
+    <li>#2</li>
+    <li>#3</li>
+  </ul>
+</div>
+);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <App />
+  JSX
 );
 
 // If you want to start measuring performance in your app, pass a function
