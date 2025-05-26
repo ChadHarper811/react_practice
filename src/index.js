@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Calendar from './Calendar';
 import ToDo from './ToDo';
+import ShoppingCart from './ShoppingCart';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     <App />
     <Calendar />
     <ToDo />
+    <ShoppingCart />
   </React.StrictMode>
 );
 
