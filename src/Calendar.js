@@ -1,4 +1,6 @@
-const CurrentDate = () => {
+import React from "react";
+
+const CurrentDate = (props) => {
     return (
       <div>
         { /* Change code below this line */ }
@@ -8,9 +10,13 @@ const CurrentDate = () => {
     );
   };
 
-  const Calendar = () => {
+  class Calendar extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
     return (
-        <div>
+      <div>
         <h3>What date is it?</h3>
         { /* Change code below this line */ }
         <CurrentDate />
@@ -18,5 +24,6 @@ const CurrentDate = () => {
       </div>
     );
   }
+};
 
 export default Calendar;
